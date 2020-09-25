@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: <Widget>[
-        BackGround(),
+        BackGround("images/night3.png"),
         Weather(),
         CustomButton(),
         Padding(
